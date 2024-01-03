@@ -74,7 +74,7 @@ function CheckStatus() {
 function PlaceStatuOnTextBox() {
     if(game_status === "over") player_textbox.innerText = "GAME DRAW";
     else if(game_status === "X") player_textbox.innerText = "X WON GAME";
-    else if(game_status === "O") player_textbox.innerText = "X WON GAME";
+    else if(game_status === "O") player_textbox.innerText = "O WON GAME";
 }
 
 // Place the X or O on the approiate position on the board
