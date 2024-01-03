@@ -1,0 +1,48 @@
+@font-face {
+    font-family: TicTacToe;
+    src: url(TicTacToe.ttf);
+}
+
+body {
+    background-color: rgb(231, 176, 104);
+}
+
+.game {
+    height: 400px;
+    width: 400px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 126px);
+    grid-template-rows: repeat(3, 126px);
+    gap: 10px 10px;
+    background-color: rgb(212, 147, 62);
+}
+
+.cell {
+    padding: 40px 0 0 0;
+    background-color: rgb(235, 195, 144);
+    text-align: center;
+    font-family: TicTacToe;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#player-text {
+    padding: 10px;
+    width: 400px;
+    background-color: rgb(235, 195, 144);
+    font-family: TicTacToe;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+
+#reset-btn {
+    width: 420px;
+    background-color: rgb(163, 136, 100);
+    font-family: TicTacToe;
+    font-weight: bold;
+    font-size: 30px;
+    border: none;
+    text-align: center;
+}
