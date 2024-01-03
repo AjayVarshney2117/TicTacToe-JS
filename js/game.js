@@ -96,7 +96,7 @@ function Place_Char(row, col) {
 
 // Whenever the reset button is pressed, this function initiated
 function reset() {
-    for(let r=0 ; r<9 ; ++r) grid[r].innerText = "";
+    for(let r=0 ; r<9 ; ++r) grid[r].innerText = r + 1;
     Start();
 }
 
